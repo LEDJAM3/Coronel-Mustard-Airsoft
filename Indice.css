@@ -1,0 +1,32 @@
+#headerText {
+    font-size: 5rem;
+    text-wrap: wrap;
+    color: white;
+    margin-left: 1cm;
+}
+
+@media only screen and (max-width: 700px) {
+    #headerText {
+        font-size: 0rem;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+    #headerText {
+        font-size: 3rem;
+    }
+}
+
+.carta {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.carta .card-header {
+    background-color: gold;
+    color: black;
+}

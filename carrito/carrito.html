@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="carrito.css">
+</head>
+
+<body style="background-image: url(https://img.freepik.com/fotos-premium/superficie-blanco-textura-sucia-fondo-gris-abstracto-papel-tapiz-cartel-sucio-sto-grano-aspero_124507-10829.jpg); background-repeat: no-repeat; background-size: cover;">
+    <header style="width: 100%; top: 0; left: 0; position: fixed; z-index: 3; height: 3cm; margin-bottom: 0.5cm; margin-top: 0.5cm; display: flex; align-items: center; justify-content: space-between; padding: 0 1cm;" class="bg-black rounded-pill">
+        <div style="display: flex; align-items: center;">
+            <a href="/index.html"><img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1101120/3b5e0fd7967981b51df4f16d3a3afd1649750f37.jpg" alt="logo" height="75px"></a>
+            <p id="headerText" style="margin-left: 1em;">Coronel Mustard Airsoft</p>
+        </div>
+        <div class="container-sm" style="position: fixed; right: 2.5cm; z-index: 4; width: auto;">
+            <button type="button" class="btn btn-warning position-relative" id="Usuario" data-bs-toggle="modal" data-bs-target="#userModal">
+                <img src="https://cdn.icon-icons.com/icons2/933/PNG/512/round-account-button-with-user-inside_icon-icons.com_72596.png" width="25" alt="">
+            </button>
+        </div>
+        <div class="container-sm" style="position: fixed; right: 1cm; z-index: 4; width: auto;">
+            <button class="btn btn-warning position-relative" id="ARSENAL" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <img src="https://cdn.icon-icons.com/icons2/606/PNG/512/shopping-basket_icon-icons.com_56138.png" width="25" alt="">
+                <span id="span1" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    0
+                </span>
+            </button>
+        </div>
+    </header>
+    <main style="margin-top: 4cm;">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar1" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_file-photo-p014149577.jpg?31&time=1700011862" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre1">REPLICA KING ARMS SPORT SERIE M4 RIS KA-AG-140 BK</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio1">99.99</span></p></div>
+                            <a href="#" id="btn1" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div id="tar2" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_file-photo-p0028404498.jpg?31&time=1700011895" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre2">RÉPLICA KING ARMS SPORTS SERIES M4A1 KA-AG-119</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio2">99.99</span></p></div>
+                            <a href="#" id="btn2" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar3" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_i-img600x600-1635239704xr5mdu20719250.jpg?31&time=1700011928" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre3">REPLICA KING ARMS SPORT SERIE M4 CQB RIS KA-AEG-250</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio3">99.99</span></p></div>
+                            <a href="#" id="btn3" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar4"  class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_file_photo_p109535492.jpg?31&time=1700012015" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre4">PACK KING ARMS PDW 5.56 SBR L + LIPO 7,4 1100 + CARGADOR BALENCEADOR + BB 0.20</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio4">279.99</span></p></div>
+                            <a href="#" id="btn4" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar1" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/M_pegasuspack2495.jpg?31&time=1700015718" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre5">ROSSI PEGASUS #PANZERPACK ( BATERÍA 7,4 1100 MAH + CARGADOR BALANCEADOR)</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio5">159.99</span></p></div>
+                            <a href="#" id="btn5" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar2" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_rossi-pegasus-panzer-commando7552.jpg?31&time=1700016705" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre6">REPLICA ROSSI SENTINEL PEGASUS PANZER CAÑON 6.02</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio6">129.99</span></p></div>
+                            <a href="#" id="btn6" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar3" class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_rossi-pegasus-baker-commando0956.jpg?31&time=1700016835" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre7">REPLICA ROSSI SENTINEL PEGASUS BAKER CAÑON 6.02</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio7">149.99</span></p></div>
+                            <a href="#" id="btn7" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div id="tar4"  class="card bg-black" style="width: 18rem;">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/6365/product/X_rossi-pegasus-rhine-commando4904.jpg?31&time=1700016893" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: white;"><span id="nombre8">REPLICA SENTINEL PEGASUS RHINE CAÑON 6.02</span></h5>
+                            <div><p style="color: white;">precio: $<span id="precio8">149.99</span></p></div>
+                            <a href="#" id="btn8" class="btn btn-primary boton">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel" style="background-image: url(https://w0.peakpx.com/wallpaper/567/713/HD-wallpaper-warzone-airsoft-cod-games-military-nvgs-outsides-playstation-xbox.jpg);">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">MI ARSENAL</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <table id="tabla" class="table-bordered bg-white">
+                    <thead>
+                        <tr>
+                            <td>Nº</td>
+                            <td>Descripción</td>
+                            <td>Precio</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button type="button" name="" id="btnElim" class="btn btn-warning me-md-2">ELIMINAR</button>
+                    <button type="button" name="" id="btnComp" class="btn btn-warning">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="userModalLabel">Usuario</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="loginModalLabel">Iniciar Sesión</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="loginEmail" class="form-label">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="loginEmail" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="loginPassword" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="loginPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="registerModalLabel">Registrarse</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="registerEmail" class="form-label">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="registerEmail" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="registerPassword" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="registerPassword" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="confirmPassword" class="form-label">Confirmar Contraseña</label>
+                      <input type="password" class="form-control" id="confirmPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer style="margin-top: 1cm; height: 5cm; background-color: rgb(19, 19, 19); display: flex; justify-content: center; align-items: center;">
+        <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1101120/3b5e0fd7967981b51df4f16d3a3afd1649750f37.jpg" alt="logo" height="75px" style="margin: 1cm;">
+        <p style="color: white;">Contáctanos:<br>+59172971987<br>MustardAirsoft@100%real.com<br>Esq Ministro Carvajal con Ministro Carvajal.<br>Lun a Vie 09:00 a 25:00hrs.</p>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="/js/jquery-3.7.1.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+
+    </script>
+    <script src="carrito.js"></script>
+</body>
+
+</html>
